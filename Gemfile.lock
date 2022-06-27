@@ -94,6 +94,7 @@ GEM
     nokogiri (1.13.6)
       mini_portile2 (~> 2.8.0)
       racc (~> 1.4)
+    pg (1.4.1)
     puma (4.3.12)
       nio4r (~> 2.0)
     racc (1.6.0)
@@ -161,12 +162,13 @@ DEPENDENCIES
   bootsnap (>= 1.4.2)
   byebug
   listen (~> 3.2)
+  pg
   puma (~> 4.1)
   rack-cors
   rails (~> 6.0.5)
   spring
   spring-watcher-listen (~> 2.0.0)
-  sqlite3 (~> 1.4)
+  sqlite3
   tzinfo-data
 
 RUBY VERSION
